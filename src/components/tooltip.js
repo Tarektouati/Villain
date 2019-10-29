@@ -19,6 +19,7 @@ const Tooltip = ({ style, title, children, placement = 'top', ...props }) => {
         {...tooltip}
         {...props}
         style={style}
+        onClick={() => tooltip.hide}
         className={`tooltip-villain`}
         unstable_portal={false}
       >
