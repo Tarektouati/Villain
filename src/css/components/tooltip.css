@@ -7,4 +7,9 @@
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 16px;
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
 }
